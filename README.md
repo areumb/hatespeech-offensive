@@ -10,6 +10,7 @@ There is a lot of part you should manually edit every time to train/evaluate on 
 
 
 There is a possibility that I uploaded wrong files as I have many similar files as I edited many times; if you think it's the case please contact me.
+If you think something is missing, also please let me know.
 
 
 HateCheck (Rottger et al. 2021) and an existing extension (Khurana et al. 2025) of HateCheck were re-annotated into 3 classes (hateful, offensive, clean), fixing the latter's annotation errrors. 
