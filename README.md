@@ -1,6 +1,6 @@
 Under Construction!
 
-Code: Courtesey of https://github.com/urjakh/defverify 
+Code: Courtesey of https://github.com/urjakh/defverify
 Her code was adapted.
 
 
