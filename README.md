@@ -1,17 +1,32 @@
-Under Construction!
+# Under Construction!
+This repository is under construction. Polished code is coming soon.
 
 Code: Courtesey of https://github.com/urjakh/defverify
 Her code was adapted.
 
 
-Meanwhile I recommend reading her page which helps understands how to run my files.
+# Overview
 
-There is a lot of part you should manually edit every time to train/evaluate on different types of classification systems, both in the .py files and config files.
+# Project structure
+
+```
+Project
+├─ hs_generalization/  
+│  ├─ __init__.py
+│  ├─ train.py
+│  ├─ utils.py
+│  └─ evaluate.py    
+├─ tools/
+│  └─ run_many.py          
+├─ configs/
+│  ├─ train/...
+│  ├─ test/...
+│  └─ val/...
+└─ README.md
+```
 
 
-There is a possibility that I uploaded wrong files as I have many similar files as I edited many times; if you think it's the case please contact me.
-If you think something is missing, also please let me know.
 
-
+# HateCheck-XR
 HateCheck (Rottger et al. 2021) and an existing extension (Khurana et al. 2025) of HateCheck were re-annotated into 3 classes (hateful, offensive, clean), fixing the latter's annotation errrors. 
 Combined and re-annotated, they're called HateCheck-XR, and can be found in the dataset directory (rows unsorted at the moment).
