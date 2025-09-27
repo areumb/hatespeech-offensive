@@ -5,17 +5,29 @@ Her code was adapted.
 
 
 Project
-├─ hs_generalization/           
+
+├─ hs_generalization/  
+
 │  ├─ __init__.py
+
 │  ├─ train.py
+
 │  ├─ utils.py
-│  └─ evaluate.py               
+
+│  └─ evaluate.py    
+
 ├─ tools/
-│  └─ run_many.py               
+
+│  └─ run_many.py          
+
 ├─ configs/
+
 │  ├─ train/...
+
 │  ├─ test/...
+
 │  └─ val/...
+
 └─ README.md
 
 
