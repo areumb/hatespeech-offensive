@@ -26,7 +26,7 @@ Project
 
 
 # Set-up
-The code used in this study include modifications of Khurana et al. (2025)'s [code](https://github.com/urjakh/defverify), therefore it is advised to set up the environment as they did: 
+The code used in this study include modifications of [Khurana et al. (2025)](https://arxiv.org/abs/2410.15911)'s [code](https://github.com/urjakh/defverify), therefore it is advised to set up the environment as they did: 
 ```
 # Create environment.
 conda create -n hs-generalization python=3.9
