@@ -46,8 +46,8 @@ python -m hs_generalization.train -c configs\train\example.json
 # Evaluation
 Create a config file and run like the example:
 
-#running based on a single seed/checkpoint
 ```
+#running based on a single seed/checkpoint
 python -m hs_generalization.test -c configs\test\example.json --dataset davidson --eval-mode 3class --train-mode 3class --seed 5 --checkpoint "outputs\davidson\RoBERTa-base\3class\RoBERTa-base_0.pt"
 
 # If you want to run multiple files at once, you can use run_many.py like the following example:
