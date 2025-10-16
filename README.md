@@ -18,8 +18,8 @@ Project
 ├─ configs/
 │  └─ example.json
 ├─ dataset/
-│ ├─ davidson/ # (expected location if using local copy)
-│ └─ extended_hatecheck/reannotation.csv
+│ ├─ davidson/
+│ └─ hatecheck/hatecheck-xr.csv
 ├─ requirements.txt
 └─ README.md
 ```
