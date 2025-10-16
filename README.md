@@ -1,5 +1,5 @@
 # Modeling Offensive Language as a Distinct Class for Hate Speech Detection
-This repository belongs to the Master's Thesis Project, "Modeling Offensive Language as a Distinct Class for Hate Speech Detection" by Areum Kim, supervised by Dr. Antske Fokkens and Dr. Hennie van der Vliet. The project explored how modeling offensive (but not hateful) language as a distinct class impacts the task of detection of hate speech. Using a ternary classification scheme (Hateful, Offensive, Clean), I evaluated a RoBERTa-base model in the full three-class setup and in binary variants where two classes are merged or the offensive class is removed (Hate vs. Non-hate, Non-clean vs. Clean, and Hate vs. Clean). 
+This repository is part of my master's thesis project,"Modeling Offensive Language as a Distinct Class for Hate Speech Detection" (Kim, 2025), supervised by Dr. Antske Fokkens and Dr. Hennie van der Vliet. The project explored how modeling offensive (but not hateful) language as a distinct class impacts the task of detection of hate speech. Using a ternary classification scheme (Hateful, Offensive, Clean), I evaluated a RoBERTa-base model in the full three-class setup and in binary variants where two classes are merged or the offensive class is removed (Hate vs. Non-hate, Non-clean vs. Clean, and Hate vs. Clean). 
 
 # HateCheck-XR
 In the project, to probe model behavior beyond set-internal performance, I revised both **HateCheck** [(Röttger et al., 2021)](https://aclanthology.org/2021.acl-long.4/) and an existing extension by [Khurana et al. (2025)](https://arxiv.org/abs/2410.15911), aligning them with the ternary system by re-annotating them and correcting errors present in the extension. The resulting dataset, **HateCheck-XR**, is available in this repository, under "dataset" in a csv format.
@@ -61,7 +61,3 @@ python tools/run_many.py ^
   --hatecheck-csv dataset/hatecheck/hatecheck-xr.csv
 ```
 
-
-
-
-.
