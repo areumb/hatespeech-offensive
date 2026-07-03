@@ -62,4 +62,4 @@ python tools/run_many.py ^
 ```
 
 # Update 1 (2026 July):
-Currently I transformed my Master's thesis project on hate speech detection into a production-ready content moderation platform. Extended a fine-tuned RoBERTa classifier with a multi-mode REST API (FastAPI), RAG-powered policy explanations using ChromaDB, containerization with Docker, experiment tracking via MLflow, and CI/CD automation with GitHub Actions. The system supports three classification modes—ternary (hateful/offensive/clean), binary hate detection, and toxicity filtering—making it adaptable for different moderation use cases. Please check [link].
+I transformed my Master's thesis project on hate speech detection into a production-ready content moderation platform. Extended a fine-tuned RoBERTa classifier with a multi-mode REST API (FastAPI), RAG-powered policy explanations using ChromaDB, containerization with Docker, experiment tracking via MLflow, and CI/CD automation with GitHub Actions. The system supports three classification modes—ternary (hateful/offensive/clean), binary hate detection, and toxicity filtering—making it adaptable for different moderation use cases. Please check [link].
