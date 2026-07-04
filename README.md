@@ -62,4 +62,4 @@ python tools/run_many.py ^
 ```
 
 # Update (2026 July):
-Engineered the thesis model into a production-style moderation service: a FastAPI API with confidence-based routing that escalates uncertain Offensive/Hateful cases to a RAG adjudicator grounded in retrievable policy clauses (ChromaDB + LLM), with CI-enforced HateCheck-XR behavioral gates, MLflow tracking, and Docker deployment. Available on this repository: https://github.com/areumb/multi-mode-content-moderation
+Engineered the thesis model into a production-style moderation service: a FastAPI API with confidence-based routing that escalates uncertain Offensive/Hateful cases to a RAG adjudicator grounded in retrievable policy clauses (ChromaDB + LLM), with CI-enforced HateCheck-XR behavioral gates, MLflow tracking, and Docker deployment. Available on this repository: https://github.com/areumb/moderation
