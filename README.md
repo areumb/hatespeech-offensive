@@ -62,4 +62,4 @@ python tools/run_many.py ^
 ```
 
 # Update (2026 July):
-I transformed my Master's thesis project on hate speech detection into a production-ready content moderation platform. Extended a fine-tuned RoBERTa classifier with a multi-mode REST API (FastAPI), RAG-powered policy explanations using ChromaDB, containerization with Docker, experiment tracking via MLflow, and CI/CD automation with GitHub Actions. The system supports three classification modes—ternary (hateful/offensive/clean), binary hate detection, and toxicity filtering—making it adaptable for different moderation use cases. Available on this repository: https://github.com/areumb/multi-mode-content-moderation
+Engineered the thesis model into a production-style moderation service: a FastAPI API with confidence-based routing that escalates uncertain Offensive/Hateful cases to a RAG adjudicator grounded in retrievable policy clauses (ChromaDB + LLM), with CI-enforced HateCheck-XR behavioral gates, MLflow tracking, and Docker deployment. Available on this repository: https://github.com/areumb/multi-mode-content-moderation
