@@ -7,6 +7,13 @@ In the project, to probe model behavior beyond set-internal performance, I revis
 # Folder structure
 ```
 Project
+├─ configs/
+│  ├─ example.json           # quick smoke-test config
+│  ├─ train/example.json     # training config
+│  └─ test/example.json      # evaluation config with {seed} placeholders
+├─ datasets/
+│  ├─ davidson/              # place the prepared Davidson HF dataset here (not distributed)
+│  └─ hatecheck-xr/hatecheck-xr.csv
 ├─ hs_generalization/
 │  ├─ __init__.py
 │  ├─ modes.py           # class schemes (3class / hate_nonhate / nonclean_clean / hate_clean) & logit projections
@@ -16,17 +23,11 @@ Project
 │  └─ utils.py
 ├─ scripts/
 │  └─ create_hf_dataset.py   # builds the HF dataset 
-├─ configs/
-│  ├─ example.json           # quick smoke-test config
-│  ├─ train/example.json     # training config
-│  └─ test/example.json      # evaluation config with {seed} placeholders
-├─ datasets/
-│  ├─ davidson/              # place the prepared Davidson HF dataset here (not distributed)
-│  └─ hatecheck-xr/hatecheck-xr.csv
-├─ outputs/                  # checkpoints of the fine-tuned model
+├─ outputs/                  # checkpoints of the fine-tuned model (create on your own)
+├─ README.md
+├─ Thesis_Areum.pdf          
 ├─ requirements.txt
-├─ setup.py
-└─ README.md
+└─ setup.py
 ```
 
 Label encoding used throughout: `0 = hateful, 1 = offensive, 2 = clean`.
