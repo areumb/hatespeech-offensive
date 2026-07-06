@@ -44,7 +44,7 @@ pip install -r requirements.txt
 ```
 
 # Data preparation
-The Davidson dataset is not redistributed here. Download `labeled_data.csv` from the [official repository](https://github.com/t-davidson/hate-speech-and-offensive-language) and build the HuggingFace dataset (cleaning + 80/10/10 train/val/test split, as used in the thesis):
+The Davidson dataset is not redistributed here. Download `labeled_data.csv` from the [official repository](https://github.com/t-davidson/hate-speech-and-offensive-language) and build the HuggingFace dataset. For example:
 ```
 python scripts/create_hf_dataset.py -n davidson -p path/to/labeled_data.csv -o datasets/davidson -s "[0.8, 0.1, 0.1]"
 ```
