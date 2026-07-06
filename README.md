@@ -76,9 +76,7 @@ python -m hs_generalization.run_many ^
   --ckpt-pattern "outputs/davidson/RoBERTa-base/3class/seed{seed}_*.pt" ^
   --hatecheck-csv datasets/hatecheck-xr/hatecheck-xr.csv
 ```
-`--train-mode` describes the label space the checkpoint was trained on; `--eval-mode` describes how the ground truth is scored. When they differ (e.g. a `3class` model scored as `hate_nonhate`), the class probabilities are merged accordingly before the argmax. Evaluation loss is only reported when the two modes coincide.
-
-Note: the checkpoints under `outputs/` in this repository are a small example subset (one checkpoint per setup), not the full set of five seeds per setup used in the thesis.
+`--train-mode` describes the label space the checkpoint was trained on; `--eval-mode` describes how the ground truth is scored.
 
 # Update (2026 July):
 I transformed my Master's thesis project on hate speech detection into a production-ready content moderation platform. Extended a fine-tuned RoBERTa classifier with a multi-mode REST API (FastAPI), RAG-powered policy explanations using ChromaDB, containerization with Docker, experiment tracking via MLflow, and CI/CD automation with GitHub Actions. The system supports three classification modes—ternary (hateful/offensive/clean), binary hate detection, and toxicity filtering—making it adaptable for different moderation use cases. Available on [this repository](https://github.com/areumb/moderation).
