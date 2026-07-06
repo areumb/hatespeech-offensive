@@ -23,7 +23,7 @@ Project
 ├─ datasets/
 │  ├─ davidson/              # place the prepared Davidson HF dataset here (not distributed)
 │  └─ hatecheck-xr/hatecheck-xr.csv
-├─ outputs/                  # checkpoints
+├─ outputs/                  # checkpoints of the fine-tuned model
 ├─ requirements.txt
 ├─ setup.py
 └─ README.md
