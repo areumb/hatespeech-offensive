@@ -17,8 +17,8 @@ Project
 ├─ scripts/
 │  └─ create_hf_dataset.py   # builds the HF dataset 
 ├─ configs/
-│  ├─ example.json           # quick smoke-test config (few steps only)
-│  ├─ train/example.json     # training config with the thesis hyperparameters
+│  ├─ example.json           # quick smoke-test config
+│  ├─ train/example.json     # training config
 │  └─ test/example.json      # evaluation config with {seed} placeholders
 ├─ datasets/
 │  ├─ davidson/              # place the prepared Davidson HF dataset here (not distributed)
