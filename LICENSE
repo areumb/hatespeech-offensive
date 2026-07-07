@@ -1,0 +1,13 @@
+Copyright (c) 2025-2026 Areumbyeol Kim. All rights reserved.
+
+This repository is made available for viewing and evaluation purposes only
+(e.g., portfolio review). No license is granted to use, copy, modify, or
+distribute this software, in whole or in part, without prior written
+permission from the copyright holder.
+
+Exception - third-party code: some files are derived from Apache-2.0-licensed
+HuggingFace Transformers example code (via Khurana et al. (2025)'s defverify,
+https://github.com/urjakh/defverify, used with the author's permission). The
+original copyright and license notices are retained in those file headers
+(see hs_generalization/train.py), and the Apache License, Version 2.0 (see
+third_party/APACHE-2.0.txt) continues to apply to those portions only.
