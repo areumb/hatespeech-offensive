@@ -23,7 +23,10 @@ Project
 │  └─ utils.py
 ├─ scripts/
 │  └─ create_hf_dataset.py   # builds the HF dataset 
-├─ outputs/                  # checkpoints of the fine-tuned model (create on your own)
+├─ outputs/                  # create the folder and checkpoints of the fine-tuned model on your own
+├─ third_party
+│  └─  APACHE-2.0.txt
+├─ LICENSE
 ├─ README.md
 ├─ Thesis_Areum.pdf          
 ├─ requirements.txt
