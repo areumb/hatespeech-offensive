@@ -83,4 +83,4 @@ python -m hs_generalization.run_many ^
 `--train-mode` describes the label space the checkpoint was trained on; `--eval-mode` describes how the ground truth is scored.
 
 # Update (2026 July):
-I extended my Master's thesis on hate speech detection into a production-style content-moderation service: a fine-tuned RoBERTa classifier triages traffic, and an LLM adjudicator resolves escalations against retrieved policy clauses (RAG over ChromaDB), citing the clauses each verdict relies on. Served as a FastAPI REST API with three label modes — ternary (hateful/offensive/clean), hate vs. non-hate, and non-clean vs. clean — packaged with Docker, MLflow tracking, and GitHub Actions CI with behavioral and red-team regression gates. Available at [this repository](https://github.com/areumb/moderation).
+I extended my Master's thesis on hate speech detection into a production-style content-moderation service: Available at [this repository](https://github.com/areumb/moderation).
